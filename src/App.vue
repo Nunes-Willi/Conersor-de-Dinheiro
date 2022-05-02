@@ -1,12 +1,16 @@
 <script>
 import HeadeR from "@/components/HeadeR.vue";
+import MenuPrinc from "./components/MenuPrinc.vue";
 
 export default {
-  components: {HeadeR, }
+  components: {HeadeR, MenuPrinc}
 };
 </script>
+
 <template>
 
-<HeadeR/>
+  <HeadeR/>
 
+  <MenuPrinc/>
+  
 </template>
