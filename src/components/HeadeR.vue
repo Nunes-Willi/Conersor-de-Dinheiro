@@ -2,5 +2,7 @@
 export default {};
 </script>
 <template>
-<header id="Btnhead"><h1>Conversor de Dinheiro</h1></header>
+<header id="Head">
+    <h1>Conversor de Dinheiro</h1>
+</header>
 </template>

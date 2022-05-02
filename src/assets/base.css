@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  background-color: greenyellow;
+  height: 100vh;
+}
+
+#Header, #Princ{
+  border: 2px solid black;
+}
+
+#app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas: 
+    "header header"
+    "content "
+    "footer footer";
+}
