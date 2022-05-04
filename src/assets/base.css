@@ -18,3 +18,15 @@ body {
     "content "
     "footer footer";
 }
+
+#Header {
+  grid-area: header;
+  color: black;
+}
+
+#Content {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  color:  red;
+}

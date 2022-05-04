@@ -1,10 +1,9 @@
 <script>
 import HeadeR from "@/components/HeadeR.vue";
-import MenuPrinc from "./components/MenuPrinc.vue";
-import ContPrinc from "./components/ContPrinc.vue";
+import MenuPrinc from "@/components/MenuPrinc.vue";
 
 export default {
-  components: {HeadeR, MenuPrinc, ContPrinc}
+  components: {HeadeR, MenuPrinc}
 };
 </script>
 
@@ -13,7 +12,5 @@ export default {
   <HeadeR/>
 
   <MenuPrinc/>
-
-  <ContPrinc/>
 
 </template>
