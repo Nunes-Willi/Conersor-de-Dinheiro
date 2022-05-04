@@ -1,10 +1,10 @@
-body {
+/* body {
   margin: 0px;
   background-color: greenyellow;
   height: 100vh;
 }
 
-#Header, #Princ{
+#Head, #Content{
   border: 2px solid black;
 }
 
@@ -14,8 +14,8 @@ body {
   grid-template-columns: 15% 1fr;
   grid-template-rows: 10% auto 10%;
   grid-template-areas: 
-    "header header"
-    "content "
+    "Header Header"
+    "Money Content"
     "footer footer";
 }
 
@@ -29,4 +29,67 @@ body {
   display: flex;
   flex-wrap: wrap;
   color:  red;
+} */
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  /* background-color:; */
+}
+
+#app {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  grid-template-rows: 10% auto 10%;
+  grid-template-areas: 
+    "Head Head"
+    "Money Content"
+    "footer footer";
+}
+
+#Head, #Content {
+  border: 2px solid black;
+}
+
+h1 {
+  display: flex;
+  
+}
+
+#Head {
+  grid-area: header;
+  color: black;
+}
+
+#Content {
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
+  color:  red;
+}
+
+/* #footer {
+  grid-area: footer;
+  color:  black;
+} */
+
+.Money {
+  grid-area: Money;
+  color: black;
+}
+
+/* ul {
+  background-color: blue;
+} */
+
+.Money {
+  width: 300px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  
 }
