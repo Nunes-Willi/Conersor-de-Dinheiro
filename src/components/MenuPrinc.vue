@@ -6,12 +6,14 @@ export default {
 };
 </script>
 <template>
-<main id="Content">
- <h2>O que vamos converter</h2>
- <ContPrinc />
+<main id="content">
+ <h2></h2>
+<ul>
+    <ContPrinc />
 
- <ContPrinc />
+    <ContPrinc />
 
- <ContPrinc />
+    <ContPrinc />
+ </ul>
 </main>
 </template>

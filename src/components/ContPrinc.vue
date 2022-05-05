@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-<article class ="Money">
-    <h3>Sera dividido em blcos e cada bloco sera a moeda que converteremos</h3>
+<article class ="money">
+    <input type="number" id="valor">
 </article>
 </template>

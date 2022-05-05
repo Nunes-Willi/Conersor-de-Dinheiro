@@ -1,37 +1,3 @@
-/* body {
-  margin: 0px;
-  background-color: greenyellow;
-  height: 100vh;
-}
-
-#Head, #Content{
-  border: 2px solid black;
-}
-
-#app {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 15% 1fr;
-  grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
-    "Header Header"
-    "Money Content"
-    "footer footer";
-}
-
-#Header {
-  grid-area: header;
-  color: black;
-}
-
-#Content {
-  grid-area: content;
-  display: flex;
-  flex-wrap: wrap;
-  color:  red;
-} */
-
-
 body {
   margin: 0;
   height: 100vh;
@@ -39,31 +5,20 @@ body {
 }
 
 #app {
-  height: 100%;
-  display: grid;
-  grid-template-columns: 15% 1fr;
-  grid-template-rows: 10% auto 10%;
-  grid-template-areas: 
-    "Head Head"
-    "Money Content"
-    "footer footer";
-}
+  height: 100%;}
 
-#Head, #Content {
+/* #head, #content {
   border: 2px solid black;
-}
+} */
 
-h1 {
+#head {
   display: flex;
-  
-}
-
-#Head {
+  align-items: center;
   grid-area: header;
   color: black;
 }
 
-#Content {
+#content {
   grid-area: content;
   display: flex;
   flex-wrap: wrap;
@@ -75,21 +30,21 @@ h1 {
   color:  black;
 } */
 
-.Money {
+.money {
   grid-area: Money;
   color: black;
+  width: 250px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
 }
 
 /* ul {
   background-color: blue;
 } */
 
-.Money {
-  width: 300px;
-  height: 100px;
-  border: 2px solid blue;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  
+#valor{
+  height: auto;
 }
