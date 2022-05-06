@@ -14,6 +14,8 @@ export default {
     <ContPrinc />
 
     <ContPrinc />
+
+    <ContPrinc />
  </ul>
 </main>
 </template>
