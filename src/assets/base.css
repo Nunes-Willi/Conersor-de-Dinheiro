@@ -39,7 +39,7 @@ body {
   background-color: var(--var2);
   padding: 15px;
   width: 400px;
-  height: 485px;
+  height: 550px;
   margin-left: 455px;
 }
 
@@ -64,4 +64,11 @@ body {
 
 #valor{
   height: auto;
+  display: flex;
+  align-items: center;
+}
+
+#moeda{
+  display: flex;
+  align-items: center;
 }
