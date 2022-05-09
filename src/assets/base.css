@@ -47,7 +47,7 @@ body {
   color:  black;
 } */
 
-.money {
+.money, .money2, .money3, .money4 {
   background-color: var(--var3);
   color: black;
   width: 200px;
