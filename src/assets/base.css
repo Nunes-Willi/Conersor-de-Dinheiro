@@ -58,9 +58,10 @@ body {
   margin: 10px;
 }
 
-/* ul {
-  background-color: blue;
-} */
+ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 #valor{
   height: auto;
