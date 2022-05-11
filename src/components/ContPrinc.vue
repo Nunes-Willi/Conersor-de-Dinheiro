@@ -3,13 +3,17 @@ export default {};
 </script>
 
 <template>
-<article class ="money">
-    <input type="number" id="valor">
-</article>
-
-<article>
-    <input type="text" disabled id="moeda">
-</article>
-
-<button id="btnCalcular">Calcular</button>
+<div class="geral">
+    <div class="entrada">
+        <article class ="money">
+            <input type="number" id="valor">
+        </article>
+        
+        <article class="convert">
+            <input type="text" disabled id="moeda">
+        </article>
+    </div>
+    
+    <button id="btnCalcular">Calcular</button>
+</div>
 </template>

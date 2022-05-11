@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
 <main id="content">
- <h2></h2>
+ <h2>Conversor de Dinheiro</h2>
 <ul>
     <ContPrinc />
 
