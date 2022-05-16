@@ -1,4 +1,5 @@
 <script>
+
 export default {};
 </script>
 
@@ -6,14 +7,14 @@ export default {};
     <div class="geral">
         <div class="entrada">
             <article class="money4">
-                <input placeholder="Valor em Bit-coin" type="number" id="valor">
+                <input placeholder="Valor em Real" type="number" id="valor">
             </article>
 
             <article class="convert4">
-                <input placeholder="Valor em Real" type="text" disabled id="moeda">
+                <input placeholder="Valor em Bit-coin" type="text" disabled id="moeda">
             </article>
         </div>
 
-        <button id="btnCalcular">Calcular</button>
+        <button id="btnCalcular">Converter</button>
     </div>
 </template>
