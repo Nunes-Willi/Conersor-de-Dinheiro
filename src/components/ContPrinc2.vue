@@ -7,11 +7,11 @@ export default {};
 <div class="geral">
 <div class="entrada">
 <article class ="money2">
-    <input type="number" id="valor">
+    <input placeholder="Valor em Euro" type="number" id="valor">
 </article>
 
 <article class="convert2">
-    <input type="text" disabled id="moeda">
+    <input placeholder="Valor em Real" type="text" disabled id="moeda">
 </article>
 </div>
 
