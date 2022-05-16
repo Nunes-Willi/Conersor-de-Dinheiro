@@ -3,6 +3,6 @@ export default {};
 </script>
 <template>
     <footer id="footer">
-        <h1>Por William R. Nunes e Bruno C. Dias</h1>
+        <h1>Por Bruno C. Dias e  William R. Nunes</h1>
     </footer>
 </template> 
