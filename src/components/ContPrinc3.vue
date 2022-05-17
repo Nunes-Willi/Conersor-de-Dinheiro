@@ -15,6 +15,7 @@ export default {
 
 <template>
 <div class="geral">
+    <h3>Real Iene</h3>
 <div class="entrada">
 <article class ="money3">
     <input placeholder="Valor em Real" type="number" id="valor3" v-model="real">

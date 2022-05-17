@@ -14,6 +14,7 @@ export default {data () {
 
 <template>
     <div class="geral">
+        <h3>Real para bit-coin</h3>
         <div class="entrada">
             <article class="money4">
                 <input placeholder="Valor em Real" type="number" id="valor4" v-model="real">
