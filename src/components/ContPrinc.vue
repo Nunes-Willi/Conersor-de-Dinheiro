@@ -9,6 +9,7 @@ export default {
     methods: {
         converter() {
             this.dolar = this.real / 5.08
+            this.dolar = this.dolar.toFixed(2)
         }
     }
 };
