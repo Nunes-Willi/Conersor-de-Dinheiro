@@ -8,7 +8,7 @@ export default {
     },
     methods: {
         converter() {
-            this.iene = this.real / 0.039
+            this.iene = this.real / 0.037
             this.iene = this.iene.toFixed(2)
         }
     }};

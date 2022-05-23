@@ -7,7 +7,7 @@ export default {data () {
     },
     methods: {
         converter() {
-            this.bit_coin = this.real / 150.352,57
+            this.bit_coin = this.real / 145.619,19
             this.bit_coin = this.bit_coin.toFixed(2)
         }
     }};
